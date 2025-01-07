@@ -109,7 +109,7 @@ namespace JFramework.Net
 
             var rooms = Service.Zip.Decompress(request.downloadHandler.text);
             var jsons = JsonUtility.FromJson<JsonMapper<NetworkRoom>>("{" + "\"value\":" + rooms + "}");
-            Service.Event.Invoke(new LobbyUpdateEvent(jsons.value.ToArray()));
+            Service.Event.Invoke(new LobbyUpdateEvent(jsons.value));
             Debug.Log("房间信息：" + rooms);
         }
 
@@ -349,9 +349,9 @@ namespace JFramework.Net
         [Serializable]
         private class JsonMapper<T>
         {
-            public List<T> value;
+            public T[] value;
 
-            public JsonMapper(List<T> value)
+            public JsonMapper(T[] value)
             {
                 this.value = value;
             }
