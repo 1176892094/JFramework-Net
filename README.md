@@ -24,4 +24,4 @@ JFramework.Myqsl.exe 数据服务器
 
 4.源码地址:
 
-[https://github.com/1176892094/JFramework](https://github.com/1176892094/JFramework/tree/main/Program)
+[https://github.com/1176892094/JFramework](https://github.com/1176892094/JFramework)
