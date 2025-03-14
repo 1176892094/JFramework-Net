@@ -4,7 +4,7 @@
 
 JFramework.Lobby.exe 匹配服务器
 
-JFramework.Myqsl.exe 数据服务器 (需要安装Mysql)
+JFramework.Myqsl.exe 数据服务器
 
 2.主要功能:
 
@@ -20,7 +20,7 @@ JFramework.Myqsl.exe 数据服务器 (需要安装Mysql)
 
 (2) 不需要导入Unity
 
-(3) 服务器需要支持.net5.0
+(3) 运行数据服务器需要安装 Mysql
 
 4.源码地址:
 
