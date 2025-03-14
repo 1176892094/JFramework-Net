@@ -2,7 +2,9 @@
 
 1.使用方法:
 
-在服务器上打开RunNode.bat文件,即可运行中继服务。
+JFramework.Lobby.exe 匹配服务器
+
+JFramework.Myqsl.exe 数据服务器 (需要安装Mysql)
 
 2.主要功能:
 
