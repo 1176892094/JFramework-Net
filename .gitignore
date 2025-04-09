@@ -1,2 +1,7 @@
 *.DS_Store
 *.idea
+Packages*
+数据库/bin*
+数据库/obj*
+服务器/bin*
+服务器/obj*
