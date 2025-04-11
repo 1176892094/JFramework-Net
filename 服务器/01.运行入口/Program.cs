@@ -1,5 +1,5 @@
 ﻿// *********************************************************************************
-// # Project: JFramework
+// # Project: Astraia
 // # Unity: 6000.3.5f1
 // # Author: 云谷千羽
 // # Version: 1.0.0
@@ -15,7 +15,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     internal class Program
     {
@@ -32,7 +32,7 @@ namespace JFramework.Net
             Log.Info = Info;
             Log.Warn = Warn;
             Log.Error = Error;
-            var transport = new Transport();
+            var transport = new Astraia.Transport();
             transport.Awake();
             try
             {
@@ -51,8 +51,8 @@ namespace JFramework.Net
                 Setting = JsonConvert.DeserializeObject<Setting>(File.ReadAllText("setting.json"));
 
                 Log.Info("加载程序集...");
-                Assembly.LoadFile(Path.GetFullPath("JFramework.dll"));
-                Assembly.LoadFile(Path.GetFullPath("JFramework.Kcp.dll"));
+                Assembly.LoadFile(Path.GetFullPath("Astraia.dll"));
+                Assembly.LoadFile(Path.GetFullPath("Astraia.Kcp.dll"));
                 
                 Log.Info("初始化传输类...");
                 Process = new Process(transport);

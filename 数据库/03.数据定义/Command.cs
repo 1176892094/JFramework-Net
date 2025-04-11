@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     internal readonly struct Command
     {

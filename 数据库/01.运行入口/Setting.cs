@@ -11,7 +11,7 @@
 
 using System;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     [Serializable]
     internal class Setting

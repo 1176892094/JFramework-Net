@@ -18,7 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     [RestResource]
     internal class RestRequest

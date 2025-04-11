@@ -12,7 +12,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     [Serializable]
     public struct SqlSettingManager

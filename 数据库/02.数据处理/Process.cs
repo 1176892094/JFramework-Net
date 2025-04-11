@@ -15,7 +15,7 @@ using System.Data;
 using System.Linq;
 using System.Reflection;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     internal static class Process
     {

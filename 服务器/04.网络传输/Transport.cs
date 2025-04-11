@@ -1,5 +1,5 @@
 ﻿// *********************************************************************************
-// # Project: JFramework.Lobby
+// # Project: Astraia.Lobby
 // # Unity: 6000.3.5f1
 // # Author: 云谷千羽
 // # Version: 1.0.0
@@ -11,7 +11,7 @@
 
 using System;
 
-namespace JFramework.Net
+namespace Astraia
 {
     internal sealed class Transport
     {
@@ -37,7 +37,7 @@ namespace JFramework.Net
 
         public void Awake()
         {
-            var setting = new JFramework.Setting(maxUnit, timeout, interval, deadLink, fastResend, sendWindow, receiveWindow);
+            var setting = new Setting(maxUnit, timeout, interval, deadLink, fastResend, sendWindow, receiveWindow);
             client = new Client(setting, ClientConnect, ClientDisconnect, ClientError, ClientReceive);
             server = new Server(setting, ServerConnect, ServerDisconnect, ServerError, ServerReceive);
             return;

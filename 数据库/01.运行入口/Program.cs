@@ -16,7 +16,7 @@ using System.IO;
 using System.Reflection;
 using Newtonsoft.Json;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     internal class Program
     {
@@ -47,8 +47,8 @@ namespace JFramework.Net
 
                 Setting = JsonConvert.DeserializeObject<Setting>(File.ReadAllText("service.json"));
                 Log.Info("加载程序集...");
-                Assembly.LoadFile(Path.GetFullPath("JFramework.dll"));
-                Assembly.LoadFile(Path.GetFullPath("JFramework.Kcp.dll"));
+                Assembly.LoadFile(Path.GetFullPath("Astraia.dll"));
+                Assembly.LoadFile(Path.GetFullPath("Astraia.Kcp.dll"));
 
                 Log.Info("开始进行传输...");
                 if (Setting.UseEndPoint)

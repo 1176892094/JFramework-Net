@@ -1,5 +1,5 @@
 ﻿// *********************************************************************************
-// # Project: JFramework
+// # Project: Astraia
 // # Unity: 6000.3.5f1
 // # Author: 云谷千羽
 // # Version: 1.0.0
@@ -13,16 +13,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JFramework.Net
+namespace Astraia.Net
 {
     internal class Process
     {
         private readonly Dictionary<string, Room> rooms = new Dictionary<string, Room>();
         private readonly Dictionary<int, Room> clients = new Dictionary<int, Room>();
         private readonly HashSet<int> connections = new HashSet<int>();
-        private readonly Transport transport;
+        private readonly Astraia.Transport transport;
 
-        public Process(Transport transport)
+        public Process(Astraia.Transport transport)
         {
             this.transport = transport;
         }
