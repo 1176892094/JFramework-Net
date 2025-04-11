@@ -32,4 +32,4 @@ Astraia.Myqsl.exe 数据服务器
 
 5.框架地址:
 
-[https://github.com/1176892094/JFramework](https://github.com/1176892094/Astraia)
+[https://github.com/1176892094/Astraia](https://github.com/1176892094/Astraia)
