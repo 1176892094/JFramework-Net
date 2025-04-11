@@ -1,10 +1,18 @@
-# JFramework-Net
+# Astraia-Net
+
+1.文件介绍
+
+(1) 服务器 包含大厅服务器源码
+
+(2) 数据库 包含数据服务器源码
+
+(3) 源程序 可以直接运行的控制台程序
 
 1.使用方法:
 
-JFramework.Lobby.exe 匹配服务器
+Astraia.Lobby.exe 大厅服务器
 
-JFramework.Myqsl.exe 数据服务器
+Astraia.Myqsl.exe 数据服务器
 
 2.主要功能:
 
