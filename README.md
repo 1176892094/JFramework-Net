@@ -8,13 +8,13 @@
 
 (3) 源程序 可以直接运行的控制台程序
 
-1.使用方法:
+2.使用方法:
 
 Astraia.Lobby.exe 大厅服务器
 
 Astraia.Myqsl.exe 数据服务器
 
-2.主要功能:
+3.主要功能:
 
 (1) 大厅房间信息
 
@@ -22,7 +22,7 @@ Astraia.Myqsl.exe 数据服务器
 
 (3) 游戏房主踢人
 
-3.注意:
+4.注意:
 
 (1) 不支持断线重连
 
@@ -30,6 +30,6 @@ Astraia.Myqsl.exe 数据服务器
 
 (3) 运行数据服务器需要安装 Mysql
 
-4.源码地址:
+5.框架地址:
 
 [https://github.com/1176892094/JFramework](https://github.com/1176892094/JFramework)
